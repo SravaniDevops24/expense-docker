@@ -12,4 +12,4 @@ systemctl start docker
 systemctl status docker
 systemctl enable docker
 usermod -aG docker ec2-user
-echo -e "$R Logout and is Login again $N"
+echo -e "$R Logout and Login again $N"
