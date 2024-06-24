@@ -9,7 +9,7 @@ services:
   backend:
     image: backend:v1.0.0
     container_name: backend
-    depend_on:
+    depends_on:
     - mysql
   frontend:
     image: frontend:v1.0.0
